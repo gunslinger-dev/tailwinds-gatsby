@@ -3,5 +3,8 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Tailwinds Gatsby",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-postcss",
+  ],
 };
